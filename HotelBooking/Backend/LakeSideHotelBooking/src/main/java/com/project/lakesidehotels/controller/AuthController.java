@@ -33,8 +33,8 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
-@CrossOrigin(origins =  "http://localhost:5173" 
-		, methods = { RequestMethod.POST, RequestMethod.GET,RequestMethod.OPTIONS })
+@CrossOrigin(origins = "http://localhost:5173", methods = { RequestMethod.POST, RequestMethod.GET,
+		RequestMethod.OPTIONS })
 @RestController
 @RequestMapping("/auth")
 @RequiredArgsConstructor
